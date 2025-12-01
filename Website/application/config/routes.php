@@ -124,6 +124,14 @@ $route['admin/contact/detail/(:num)'] ='admin/contact/detail/$1';
 $route['admin/contact/(:num)'] ='admin/contact/index/$1';
 $route['admin/contact/recyclebin/(:num)'] ='admin/contact/recyclebin';
 
+$route['admin/chatbox'] = 'admin/chatbox/index';
+$route['admin/chatbox.html'] = 'admin/chatbox/index';
+
+$route['admin/user/login'] = 'admin/user/login';
+$route['admin/user/login.html'] = 'admin/user/login';
+$route['admin/user/logout'] = 'admin/user/logout';
+$route['admin/user/logout.html'] = 'admin/user/logout';
+
 $route['admin/debug/fix_admin'] = 'admin/debug/fix_admin';
 $route['admin/debug/check_admin'] = 'admin/debug/check_admin';
 $route['admin/(:any)']='admin/E403/index';

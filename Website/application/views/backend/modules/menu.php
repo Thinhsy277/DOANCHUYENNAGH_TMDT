@@ -39,6 +39,11 @@
                     <i class="fa fa-envelope"></i> <span>Liên hệ</span>
                 </a>
             </li>
+        <li class="treeview">
+            <a href="<?php echo base_url() ?>admin/chatbox">
+                <i class="fa fa-comments"></i> <span>Lịch sử chatbot</span>
+            </a>
+        </li>
             <li class="treeview">
                 <a href="<?php echo base_url() ?>admin/orders">
                     <i class="fa fa-shopping-cart"></i> <span>Đơn hàng</span>
